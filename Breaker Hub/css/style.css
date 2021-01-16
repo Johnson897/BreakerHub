@@ -1,0 +1,219 @@
+/* Mobile Layout */
+@media only screen and (max-width: 767px) 
+{
+:root {
+  
+  font-size: 1.3em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.53rem;
+  margin: auto;
+  max-width: 20rem;
+  color: #d8edea;
+  background: radial-gradient(
+    circle,
+    rgba(160, 196, 174, 1) 0%,
+    rgba(104, 80, 191, 1) 99%,
+    rgba(94, 191, 178, 1) 100%
+  );
+}
+
+.body1
+{
+ background:radial-gradient(
+    circle,
+    rgba(175, 196, 174, 1) 0%,
+    rgba(104, 204, 191, 1) 89%,
+    rgba(94, 191, 178, 1) 100%
+  );
+}
+
+.body2
+{
+ background:radial-gradient(
+    circle,
+    rgba(175, 196, 174, 1) 0%,
+    rgba(104, 204, 191, 1) 89%,
+    rgba(94, 191, 178, 1) 100%
+  );
+}
+
+header {
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+div {
+  height: 0.88rem;
+  width: 0.88rem;
+}
+.game {
+  height: 0;
+  width: 100px;
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  margin:1.2rem;
+  margin-left:2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 9.0rem;
+  height: 18.6rem;
+  border:2px solid purple;
+  border-radius:0.6rem;
+}
+.display{
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-left:12rem;
+  width: 6.5rem;
+  height: 10rem;
+  background: #f0f0f0;
+  background-image: linear-gradient(#d0d0d0, #f0f0f0);
+  border-radius:5px;
+  box-shadow: 0 1px 3.5px rgba(0, 0, 0, 0.8) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
+
+.button {
+  position: relative;
+  height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 23px;
+  font-size: 7.5px;
+  display: block;
+  margin: 23px;
+  text-shadow: -1px -1px 0 #a84155;
+  background: #d25068;
+  border: 1px solid #d25068;
+  width: 5rem;
+  background-image: linear-gradient(to bottom, #f66c7b, #d25068);
+  border-radius: 5px;
+  box-shadow: 0 3.5px 0 rgba(255, 255, 255, 0.5) inset,
+    0 -1px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 0 #ad4257,
+    0 4px 2px rgba(0, 0, 0, 0.5);
+}
+/*MENU*/
+
+
+.footer, .button
+{
+ margin-left: 265px;
+}
+/* some utility classes */
+.t-ucase {
+  text-transform: uppercase;
+}
+
+.t-big {
+  font-size: 0.5em;
+}
+
+  letter-spacing: 0.7rem;
+.t-wide {
+}
+
+.t-close {
+  letter-spacing: 0.33rem;
+}
+
+.fw-Big {
+  font-weight: 100;
+}
+
+.fw-Bigger {
+  font-weight: 133.33;
+}
+
+.block2{
+  background-image: url(../img/green_block.png);
+}
+.block3 {
+  background-image: url(../img/navy_block.png);
+}
+ 
+ .quiz-time
+{
+margin-top:10%;
+margin-left:-7%;
+margin-bottom:5%;
+}
+
+.quiz-time .remaining-time
+{
+height:30px ;
+width:30px ;
+color:#059e4c ;
+border:2px solid #059e4c ;
+font-weight:400;
+line-height:28px;
+text-align:center;
+border-radius:50%;
+
+}
+
+.quiz-time .remaining-time.warningTime
+{
+color:red;
+font-size:20px;
+border:2px solid red;
+}
+.remove-clicker
+    {
+      pointer-events:none;
+    }
+ 
+.inline-controls
+{
+  display:flex;
+  margin-left:-15%;
+  
+  
+}
+.controls
+{
+ margin-left:1%;
+  width:25%;
+  
+}
+.controls button
+{
+  height:125%;
+  margin-top:2%;
+}
+
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+
+
+}
+
+
+/* Mobile Layout */
+@media (max-width: 450px) 
+{
+
+}
+
